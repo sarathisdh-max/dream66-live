@@ -1,0 +1,22 @@
+{
+  "name": "dream66",
+  "version": "1.0.0",
+  "description": "Dream 66 Betting Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2-runtime start server.js -i max",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.5",
+    "socket.io": "^4.8.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
